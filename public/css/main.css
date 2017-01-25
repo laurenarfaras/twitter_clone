@@ -1,0 +1,25 @@
+.button {
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: lightgreen;
+}
+
+.pull-right{
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button-green {
+  background-color: lightgreen;
+}
