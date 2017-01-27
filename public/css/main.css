@@ -10,12 +10,14 @@
   margin-top: 15px;
 }
 
-.button-see-thru {
-  opacity: 0.6;
-}
-
 .button-white {
   background-color: white;
+  opacity: 0.8;
+}
+
+.button-see-thru {
+  background: rgba(255, 255, 255, 0.3);
+  /*opacity: 0.6;*/
 }
 
 .button:hover {
@@ -31,7 +33,7 @@
 }
 
 .banner {
-  background-color: green;
+  background-color: #359965;
   width: 100%;
   display: block;
 }
@@ -49,4 +51,51 @@ html, body {
   padding: 80px 0;
   margin: 0;
   font-family: sans-serif;
+}
+
+.nav-container {
+  background-color: white;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
+.nav-list {
+  margin: 0;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 20px 50px;
+  border-right: 1px solid lightgrey;
+  /*border-left: 1px solid lightgrey;*/
+  margin: auto -2px;
+}
+
+.nav-list li:first-child {
+  border-left: 1px solid lightgrey;
+}
+
+.nav-list li:hover {
+  border-bottom: 2px solid #359965;
+}
+
+.card-row {
+
+}
+
+.card{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.card-info {
+
+}
+
+.card-signup {
+  background-color: #359965;
 }
