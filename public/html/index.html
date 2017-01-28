@@ -10,12 +10,12 @@
 <body>
   <header>
     <div class="banner">
-      <a href="#" class="button button-see-thru button-white pull-right">Log in</a>
-      <a href="#" class="button button-white pull-right">Sign up</a>
+      <a href="/login" class="button button-see-thru button-white pull-right">Log in</a>
+      <a href="/signup" class="button button-white pull-right">Sign up</a>
       <h1>What's happening?</h1>
     </div>
-    <nav>
-      <ul>
+    <nav class="nav-container">
+      <ul class="nav-list">
         <li>Featured</li>
         <li>Sports</li>
         <li>News</li>
@@ -26,27 +26,33 @@
     </nav>
   </header>
   <main>
-    <h2>Moments · <small>View all</small></h2>
-    <section>
-      <h3>Some things and stuff</h3><br>
-      <h4>Action · <small>8 minutes ago</small></h4>
-      <img src="http://placehold.it/312x312" alt="">
-    </section>
-    <section>
-      <h3>Some things and stuff</h3><br>
-      <h4>Action · <small>8 minutes ago</small></h4>
-      <img src="http://placehold.it/312x312" alt="">
-    </section>
-    <section>
-      <h3>Some things and stuff</h3><br>
-      <h4>Action · <small>8 minutes ago</small></h4>
-      <img src="http://placehold.it/312x312" alt="">
-    </section>
-    <section>
-      <h2>New to Twitterish?</h2>
-      <p>Sign up yo!</p>
-      <a href="#">Sing up</a>
-    </section>
+    <div class="card-row">
+      <h2>Moments · <small>View all</small></h2>
+      <section class="card card-info">
+        <h3>Some things and stuff</h3><br>
+        <h4>Action · <small>8 minutes ago</small></h4>
+        <img src="http://placehold.it/282x282" alt="">
+      </section>
+      <section class="card card-info">
+        <h3>Some things and stuff</h3><br>
+        <h4>Action · <small>8 minutes ago</small></h4>
+        <img src="http://placehold.it/282x282" alt="">
+      </section>
+      <section class="card card-info">
+        <h3>Some things and stuff</h3><br>
+        <h4>Action · <small>8 minutes ago</small></h4>
+        <img src="http://placehold.it/282x282" alt="">
+      </section>
+      <section class="card card-signup">
+        <div class="sign-up-text">
+          <div class="sign-up-header">
+            <h2>New to Twitterish?</h2>
+          </div>
+          <div><p>Sign up now yo!</p></div>
+          <a class="button button-white" href="#">Sign up</a>
+        </div>
+      </section>
+    </div>
   </main>
   <footer>
     <ul>

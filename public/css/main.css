@@ -1,3 +1,8 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #dddddd;
+}
+
 .button {
   width: 100px;
   border: 1px solid white;
@@ -33,7 +38,7 @@
 }
 
 .banner {
-  background-color: #359965;
+  background-color: #1da1f2;
   width: 100%;
   display: block;
 }
@@ -81,7 +86,10 @@ html, body {
 }
 
 .card-row {
-
+  display: block;
+  width: 1200px;
+  height: 340px;
+  padding: 10px;
 }
 
 .card{
@@ -90,6 +98,7 @@ html, body {
   display: inline-block;
   border: 1px solid lightgrey;
   border-radius: 5px;
+  background-color: white;
 }
 
 .card-info {
@@ -97,5 +106,40 @@ html, body {
 }
 
 .card-signup {
-  background-color: #359965;
+  background-color: #1da1f2;
+  width: 275px;
+  height: 420px;
+  padding: 15px;
+  text-align: center;
+}
+
+.sign-up-text {
+  width: 240px;
+  height: 218px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.sign-up-header {
+  display: block;
+  width: 245px;
+  height: 26px;
+}
+
+.sign-up-header h2 {
+  width: 245px;
+  height: 26px;
+  margin-top: 70px;
+  margin-bottom: 14px;
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.sign-up-text p {
+  width: 245px;
+  height: 36px;
+  margin: 0;
 }
