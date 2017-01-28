@@ -1,0 +1,127 @@
+body {
+  background: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: right;
+}
+
+#grad1 {
+    height: 50px;
+    background: #1da1f2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #1da1f2 , #00e29b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #1da1f2, #00e29b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #1da1f2, #00e29b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1da1f2 , #00e29b); /* Standard syntax (must be last) */
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  /*background-color: #ddd;*/
+  text-decoration: underline;
+}
+
+li img {
+  position: fixed;
+  left: 45%;
+}
+
+.signup-container {
+  float: right;
+  width: 392px;;
+  height: 456px;
+  /*border: 1px solid black;*/
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 7%;
+}
+
+.float-right {
+  width: 34%;
+  height: 516px;
+  float: right;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+input {
+  display: block;
+  width: 372px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 3px;
+  margin: 25px 0px;;
+  font-size: 18px;
+}
+
+.check {
+  width: auto;
+  float: left;
+  margin-top: 13px;
+}
+
+.inblock {
+  display: inline-block;
+  position: relative;
+}
+
+#tailor-text {
+  float: right;
+  text-align: left;
+  font-size: 12px;
+  width: 360px;
+}
+
+button {
+  display: block;
+  width: 392px;
+  height: 44px;
+  padding: 12px 16px;
+  background-color: #1da1f2;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.small-print {
+  display: inline;
+  font-size: 12px;
+  color: #8899a6;
+}
+
+.blue-link {
+  color: #1b95e0;
+}
+
+.textblock {
+  display: block;
+}
